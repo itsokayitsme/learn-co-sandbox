@@ -1,0 +1,14 @@
+name = 'nori'
+original_age = 1
+years_owned = 2
+cat_age = original_age + years_owned
+
+puts "My cat, #{name} is #{cat_age} years old"
+
+if cat_age  < 2 
+ puts 'she smol' 
+elsif cat_age > 8
+ puts 'she old'
+else
+ puts 'she cute'
+end
